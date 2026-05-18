@@ -1,0 +1,79 @@
+body{
+    margin-top: 0px;
+}
+
+.contact{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-left, .contact-right{
+    width: 50%;
+}
+
+.contact-right{
+    background-color: pink;
+}
+
+.contact-left{
+    padding: 90px 0px 40px 40px;
+    /* margin: 0; */
+}
+
+.contact-top{
+    background-color: rgba(127, 255, 212, 0.281);
+    padding: 60px 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contact-bottom h1{
+    font-size: 48px;
+}
+
+.contact-top div{
+    padding: 0;
+    background-color: transparent;
+}
+
+.contact-top div img{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 60px;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+footer{
+    margin: 0;
+}
+
+.contact-bottom label{
+    margin: 10px 0;
+    width: 100%;
+}
+
+.contact-bottom input ,.contact-bottom textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.contact-bottom input:focus, .contact-bottom textarea:focus{
+    /* border: none; */
+    outline: none;
+}
+
+.contact-bottom button{
+    color: white;
+    background-color: rgb(59 34 125);
+    padding: 10px 20px;
+    float: right;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}

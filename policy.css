@@ -1,0 +1,35 @@
+.policy{
+    display: flex;
+    margin: 0px 40px;
+}
+
+.policy div{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    transition: margin 0.5s, padding 0.5s;
+}
+
+.policy div:hover{
+    padding: 30px;
+    margin: 0;
+}
+
+.policy div h2{
+    font-size: 32px;
+    margin-right: 100px;
+    margin-top: 0;
+}
+
+.policy div p{
+    line-height: 25px;
+}
+
+.policy div button{
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}

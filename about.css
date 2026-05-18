@@ -1,0 +1,59 @@
+.content{
+    background-color: blueviolet;
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    height: 450px;
+}
+
+.content h1{
+    font-size: 45px;
+}
+.content > div{
+    display: flex; 
+}
+
+.hold-am{
+    width: 30%;
+    padding-left: 80px;
+}
+
+.hold-am img{
+    width: 60%;
+    padding: 20px 0px 20px 0px;
+    opacity: 0.5;
+    transition: opacity 0.5s, width 0.5s;
+}
+
+.hold-am img:hover{
+    opacity: 1;
+    width: 62%;
+    /* width: ; */
+}
+
+.content div p{
+    font-size: 24px;
+    width: 70%;
+}
+
+.moon{
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.moon h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.moon p, .moon ul li{
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.sun{
+    background-color: blueviolet;
+    color: white;
+}
